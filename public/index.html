@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenList Token 获取工具</title>
+    <title>V9os Token 获取工具</title>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
-    <link rel="icon" type="image/png" href="https://cdn.oplist.org/gh/OpenListTeam/Logo@main/logo/32x32.png">
-    <link rel="icon" type="image/png" href="https://cdn.oplist.org/gh/OpenListTeam/Logo@main/logo/64x64.png">
-    <link rel="apple-touch-icon" type="image/png" href="https://cdn.oplist.org/gh/OpenListTeam/Logo@main/logo.png">
+    <link rel="icon" type="image/png" href="https://edge.v9os.com/driver/logo32.png">
+    <link rel="apple-touch-icon" type="image/png" href="https://edge.v9os.com/driver/logo32.png">
     <link href="https://cdn.oplist.org/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.oplist.org/npm/sweetalert2@11.22.0/dist/sweetalert2.all.min.js"></script>
+    <script src="https://edge.v9os.com/driver/bridge.js"></script>
 </head>
 <body>
 <div class="toggle-theme">
     <button class="btn btn-outline-secondary" onclick="toggleTheme()" style="z-index: 100;">切换主题</button>
 </div>
 <div class="container form-container">
-    <h2 class="text-center mb-4">🔐 OpenList Token 获取工具</h2>
+    <h2 class="text-center mb-4">🔐 V9os Token 获取工具</h2>
     <div class="mb-3">
         <label for="driver-txt-input" class="form-label">网盘名称</label>
         <select id="driver-txt-input" class="form-select">
@@ -42,7 +42,7 @@
 
     <div class="mb-3" style="margin-top: 15px">
         <input type="checkbox" id="server-use-input" class="form-check-input">
-        <label for="server-use-input" class="form-check-label">使用 OpenList 提供的参数</label>
+        <label for="server-use-input" class="form-check-label">使用 V9os 提供的参数</label>
     </div>
 
     <div class="mb-3" id="client-uid-views">
@@ -113,19 +113,6 @@
 <!--            <textarea id="odb-webdav-out" class="form-control" rows="3" readonly onclick="autoCopy(this)"></textarea>-->
 <!--        </div>-->
     </div>
-
-    <div class="text-muted text-center">
-        <p style="text-align:center">
-            本工具所有用户信息只以Cookie形式存储于浏览器本地<br>
-            开源于 <a href="https://github.com/OpenListTeam/OpenList-OnlineAPI" target="_blank">GitHub</a> | By <a
-                href="https://github.com/OpenListTeam"
-                target="_blank">OpenListTeam</a>
-        </p>
-        <p id="eo-show" style="text-align:center" hidden="true">
-            本工具国内CDN加速及安全防护由<a href="https://edgeone.ai/zh?from=github" target="_blank">Tencent EdgeOne</a>赞助
-            <br><img src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" style="width: 150px"/>
-        </p>
-    </div>
 </div>
 
 
@@ -152,7 +139,7 @@
     <div class="google-consent-modal-content">
         <h4>隐私政策和使用条款</h4>
         <p style="text-align: left">
-            请仔细阅读并理解OpenList应用隐私政策和使用条款。<br>
+            请仔细阅读并理解V9os应用隐私政策和使用条款。<br>
             要继续操作，需要同意获取您谷歌账号以下必要权限：</p>
         <ul>
             <li style="text-align: left">谷歌云硬盘读写权限</li>
